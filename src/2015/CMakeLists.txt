@@ -6,8 +6,11 @@ endif()
 
 add_executable(d1p1 d1p1.cpp)
 add_executable(d1p2 d1p2.cpp)
+add_executable(d2p1 d2p1.cpp)
 
 resource(d1.input)
+resource(d2.input)
 
 test(TARGET d1p1 INPUT d1.input)
 test(TARGET d1p2 INPUT d1.input)
+test(TARGET d2p1 INPUT d2.input)

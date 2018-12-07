@@ -1,6 +1,6 @@
 # Advent of Code 2015
 
-- [ ] Day 1 ([part one](./d1p1.cpp), [part two](./d1p2.cpp))
+- [x] Day 1 ([part one](./d1p1.cpp), [part two](./d1p2.cpp))
 - [ ] Day 2 (part one, part two)
 - [ ] Day 3 (part one, part two)
 - [ ] Day 4 (part one, part two)
