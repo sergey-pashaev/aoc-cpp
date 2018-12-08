@@ -3,7 +3,7 @@
 - [x] Day 1 ([part one](./d1p1.cpp), [part two](./d1p2.cpp))
 - [x] Day 2 ([part one](./d2p1.cpp), [part two](./d2p2.cpp))
 - [x] Day 3 ([part one](./d3p1.cpp), [part two](./d3p2.cpp))
-- [ ] Day 4 (part one, part two)
+- [ ] Day 4 ([part one](./d4p1.cpp), part two)
 - [ ] Day 5 (part one, part two)
 - [ ] Day 6 (part one, part two)
 - [ ] Day 7 (part one, part two)
