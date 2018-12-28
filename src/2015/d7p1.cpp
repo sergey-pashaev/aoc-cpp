@@ -183,20 +183,7 @@ uint16_t eval(const std::string& wire, Wires& wires) {
     return 0;
 }
 
-int usage(const char* bin) {
-    std::cout << "Usage: " << bin << " <wire name to evaluate>\n";
-    return 1;
-}
-
-int main(int argc, char* argv[]) {
-    if (argc < 2) {
-        return usage(argv[0]);
-    }
-
-    if (!std::isalpha(argv[1][0])) {
-        return usage(argv[0]);
-    }
-
+int main() {
     Wires wires{};
     for (std::string line; std::getline(std::cin, line);) {
         auto tokens = parse(line);
@@ -207,7 +194,7 @@ int main(int argc, char* argv[]) {
         wires[w] = std::make_pair(-1, tokens);
     }
 
-    std::cout << eval(argv[1], wires) << '\n';
+    std::cout << eval("a", wires) << '\n';
 
     return 0;
 }
