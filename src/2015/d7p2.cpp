@@ -128,11 +128,6 @@ uint16_t eval(const std::string& wire, Wires& wires) {
     return 0;
 }
 
-int usage(const char* bin) {
-    std::cout << "Usage: " << bin << " <wire name to evaluate>\n";
-    return 1;
-}
-
 int main() {
     Wires wires{};
     for (std::string line; std::getline(std::cin, line);) {
